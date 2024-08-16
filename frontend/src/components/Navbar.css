@@ -36,6 +36,10 @@
     color: #fff;
     text-decoration: none;
   }
+  li :hover{
+    background-color: white;
+    color: #000000;
+}
   
   @media screen and (max-width: 768px) {
     .navbar-toggle {
@@ -55,9 +59,14 @@
   
     .navbar-links.active {
       display: flex;
+      background-color: #fff;
     }
   
     .navbar-links li {
       margin: 0.5rem 0;
+    }
+    li :hover{
+        background-color: white;
+        color: #000000;
     }
   }
