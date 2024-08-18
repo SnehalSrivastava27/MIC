@@ -1,0 +1,14 @@
+.image img{
+    width: 1150px;
+    height: 500px;
+}
+.text
+{
+    position: absolute;
+    top: 50%; /* Adjust these values to position your text */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Text color */
+    font-size: 90px; /* Adjust as needed */
+    text-align: center;
+}
