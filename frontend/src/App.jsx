@@ -10,16 +10,18 @@ import {
   HoverCardContent,
   HoverCardTrigger,
 } from "@/components/ui/hover-card"
+import { ImagesSliderDemo } from './components/ImagesSliderDemo'
 function App() {
   return (
    <div className="App">
     <Header></Header>
-    <Hero></Hero>
-    <HoverCard>
+    {/* <Hero></Hero> */}
+    <ImagesSliderDemo></ImagesSliderDemo>
+    {/* <HoverCard>
      <HoverCardTrigger>Click</HoverCardTrigger>
       <HoverCardContent>Bahut mushkil</HoverCardContent>
       
-    </HoverCard>
+    </HoverCard> */}
    </div>
   )
 }
