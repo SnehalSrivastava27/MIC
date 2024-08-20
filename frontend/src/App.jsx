@@ -11,12 +11,15 @@ import {
   HoverCardTrigger,
 } from "@/components/ui/hover-card"
 import { ImagesSliderDemo } from './components/ImagesSliderDemo'
+import { Sparkles } from './components/Sparkles'
+import { StickyScrollRevealDemo } from './components/StickyScrollRevealDemo'
 function App() {
   return (
    <div className="App">
     <Header></Header>
     {/* <Hero></Hero> */}
     <ImagesSliderDemo></ImagesSliderDemo>
+    <Sparkles></Sparkles>
     {/* <HoverCard>
      <HoverCardTrigger>Click</HoverCardTrigger>
       <HoverCardContent>Bahut mushkil</HoverCardContent>
