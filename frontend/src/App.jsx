@@ -5,16 +5,21 @@ import './App.css'
 import './index.css'
 import Header from './components/Header'
 import Hero from './components/Hero'
-// import ExpandableCardDemo from './components/blocks/expandable-card-demo-standard'
+import {
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+} from "@/components/ui/hover-card"
 function App() {
   return (
    <div className="App">
     <Header></Header>
     <Hero></Hero>
-    {/* <ExpandableCardDemo></ExpandableCardDemo> */}
-    {/* <Event></Event>
-    <Footer></Footer> */}
-
+    <HoverCard>
+     <HoverCardTrigger>Click</HoverCardTrigger>
+      <HoverCardContent>Bahut mushkil</HoverCardContent>
+      
+    </HoverCard>
    </div>
   )
 }
